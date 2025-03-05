@@ -1,3 +1,5 @@
+require_relative "lib/resume_copilot/version"
+
 Gem::Specification.new do |spec|
     spec.name          = "resume_copilot"
     spec.version       = ResumeCopilot::VERSION
