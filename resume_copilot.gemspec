@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   
     spec.summary       = "A Ruby library for job search integration with ResumeCopilot API."
     spec.description   = "ResumeCopilot is a Ruby client library that allows users to search for jobs using ResumeCopilot API."
-    spec.homepage      = "https://github.com/resumecopilot-net/resume-copilot-lib-ruby"
+    spec.homepage      = "https://resumecopilot.net"
     spec.license       = "MIT"
   
     spec.files         = Dir["lib/**/*", "README.md", "LICENSE.txt"]
@@ -18,5 +18,8 @@ Gem::Specification.new do |spec|
     spec.add_dependency "net-http"
   
     spec.metadata["rubygems_mfa_required"] = "true"
+    spec.metadata["homepage_uri"] = spec.homepage
+    spec.metadata["source_code_uri"] = "https://github.com/resumecopilot-net/resume-copilot-lib-ruby"
+    spec.metadata["api_uri"] = "https://api.resumecopilot.net/swagger/index.html"    
   end
   
