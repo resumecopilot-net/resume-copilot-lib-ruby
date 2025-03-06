@@ -20,6 +20,9 @@ Gem::Specification.new do |spec|
     spec.metadata["rubygems_mfa_required"] = "true"
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = "https://github.com/resumecopilot-net/resume-copilot-lib-ruby"
-    spec.metadata["api_uri"] = "https://api.resumecopilot.net/swagger/index.html"    
+    spec.metadata["api_uri"] = "https://api.resumecopilot.net/swagger/index.html"
+    spec.metadata["github_repo"] = "https://api.resumecopilot.net/swagger/index.html"
+    spec.metadata["allowed_push_host"] = "https://rubygems.pkg.github.com/resumecopilot-net"
+
   end
   
