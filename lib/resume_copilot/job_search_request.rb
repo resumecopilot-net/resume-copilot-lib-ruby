@@ -4,7 +4,7 @@ module ResumeCopilot
   class JobSearchRequest
     attr_accessor :title, :company_name, :city, :state, :country, :is_remote, :size
 
-    def initialize(title:, company_name:, city:, state:, country:, is_remote: nil, size: 10)
+    def initialize(title:, company_name: nil, city: nil, state: nil, country: nil, is_remote: nil, size: 10)
       @title = title
       @company_name = company_name
       @city = city
@@ -23,7 +23,7 @@ module ResumeCopilot
         country: @country,
         isRemote: @is_remote,
         size: @size
-      }.to_json
+      }.compact.to_json
     end
   end
 end
